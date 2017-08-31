@@ -85,7 +85,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     camera.msm8916 \
+    camera.device@1.0-impl \
     libbson \
+    libshim_atomic \
     libshims_camera \
     Snap
 
