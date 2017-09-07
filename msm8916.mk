@@ -90,7 +90,7 @@ PRODUCT_PACKAGES += \
     libc_util \
     libshim_atomic \
     libshims_camera \
-    Snap
+    libshims_sensorlistener
 
 # Camera properties
 PRODUCT_PROPERTY_OVERRIDES += \
