@@ -52,6 +52,9 @@ PRODUCT_COPY_FILES += \
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
 
+# APNs
+PRODUCT_COPY_FILES += device/motorola/msm8916-common/apns-full-conf.xml:system/etc/apns-conf.xml
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@2.0-impl \
